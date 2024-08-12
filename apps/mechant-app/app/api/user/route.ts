@@ -5,6 +5,7 @@ export const GET = async () => {
     await prisma.user.create({
         data: {
             email: "asd",
+            number: "",
             name: "asd",
             password: "asd"
         }
