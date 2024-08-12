@@ -79,3 +79,17 @@ Learn more about the power of Turborepo:
 - [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
 - [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
 - [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+
+
+
+DOCKER 
+
+docker run --name my-postgres -e POSTGRES_PASSWORD=mysecretpassword -d -p 5432:5432 postgres
+
+docker ps
+
+docker exec -it 1aabaf7735b3 /bin/bash
+
+psql -h localhost -U postgres -p 5432
+
+\dt;
